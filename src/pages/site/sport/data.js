@@ -1,101 +1,84 @@
 export const sport = [
   {
-    header: "Nhảy dù",
+    header: "Danh sách",
     listActivity: [
       {
         id: 1,
-        title: "Nhảy dù đồng đội",
+        title: "Phượt",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport1.jpg").default,
+          "tuổi trẻ là tài sản lớn nhất để bạn bắt đầu hành trình của mình.",
+        img: require("@assets/images2/phuot-1.jpg").default,
       },
       {
         id: 2,
         title: "Nhảy dù đồng đội",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport2.jpg").default,
+          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia",
+        img: require("@assets/images2/nhaydu-1.jpg").default,
       },
       {
         id: 3,
-        title: "Nhảy dù đồng đội",
+        title: "Nhảy dù đôi",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport3.jpg").default,
+          "gồm 2 người tham gia nhày dù cùng nhau",
+        img: require("@assets/images2/nhaydu-2.jpg").default,
       },
       {
         id: 4,
-        title: "Nhảy dù đồng đội",
+        title: "Đua xe đạp địa hình",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport4.jpg").default,
+          "giải đua xe đạp địa hình quốc tế mở rộng lần thứ I năm 2022 đã chính thức khởi tranh",
+        img: require("@assets/images2/xedap-1.jpg").default,
+      },
+      {
+        id: 5,
+        title: "Đua moto địa hình",
+        content:
+          "mùa ba của Thử thách địa hình HTV Challenge Cup 2021 sẽ diễn ra",
+        img: require("@assets/images2/moto-1.jpg").default,
       },
     ],
   },
   {
-    header: "Đua Xe",
+    header: "",
     listActivity: [
       {
         id: 1,
-        title: "Đua xe mạo hiểm thế giới",
+        title: "Đua moto địa hình",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport2.jpg").default,
+          "Giải đua xe ô tô địa hình lớn nhất Việt Nam 2021 chính thức khởi tranh",
+        img: require("@assets/images2/oto-1.jpg").default,
       },
       {
         id: 2,
-        title: "Đua xe mạo hiểm thế giới",
+        title: "Giải đá bóng sinh viên",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport4.jpg").default,
+          "giải đấu thường niên tổ chức cho sinh viên",
+        img: require("@assets/images2/dabong-1.jpg").default,
       },
       {
         id: 3,
-        title: "Đua xe mạo hiểm thế giới",
+        title: "Giải đá bóng",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport1.jpg").default,
+          "giải đá bóng 11 người dành cho tất cả độ tuổi",
+        img: require("@assets/images2/dabong-2.jpg").default,
       },
       {
         id: 4,
-        title: "Đua xe mạo hiểm thế giới",
+        title: "Bắn súng",
         content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport3.jpg").default,
+          "giải bắn súng vô địch khu vực miền Bắc",
+        img: require("@assets/images2/baansung-1.jpg").default,
       },
+      {
+        id: 5,
+        title: "Bơi 200m",
+        content:
+          "Cúp Sun Sport Complex 2022",
+        img: require("@assets/images2/boi-1.jpg").default,
+      },
+      
     ],
   },
-  {
-    header: "Bắn súng",
-    listActivity: [
-      {
-        id: 1,
-        title: "Giải bắn súng quốc gia",
-        content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport1.jpg").default,
-      },
-      {
-        id: 2,
-        title: "Bắn súng cấp tỉnh",
-        content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport2.jpg").default,
-      },
-      {
-        id: 3,
-        title: "Giải bắn súng quốc gia",
-        content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport3.jpg").default,
-      },
-      {
-        id: 4,
-        title: "Bắn súng trường",
-        content:
-          "nhảy theo đồng đội, mỗi đội từ 10 - 15 người tham gia, giải đấu thường niên tổ chức cho thanh thiếu niên",
-        img: require("@assets/images2/sport4.jpg").default,
-      },
-    ],
-  },
+  
 ];
